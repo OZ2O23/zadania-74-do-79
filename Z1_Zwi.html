@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 74 - Tła, gradienty oraz ich parametry, teoria</title>
+    <style>
+        /* Zadanie 72 - Tło kolorowe */
+        body {
+            background-color: #ffcc00; /* Przykładowy kolor tła */
+        }
+
+        /* Zadanie 72 - Tło obrazkowe */
+        #backgroundImage {
+            background-image: url("path/to/your/image.jpg"); /* Ścieżka do obrazka */
+            background-repeat: no-repeat; /* Brak powtarzania obrazka */
+            background-position: center; /* Obrazek na środku */
+            background-color: #e6e6e6; /* Dodatkowy kolor tła */
+        }
+
+        /* Zadanie 72 - Powtarzanie tła */
+        #repeatingBackground {
+            background-image: url("path/to/your/pattern.png"); /* Ścieżka do powtarzanego wzoru */
+            background-repeat: repeat; /* Powtarzanie w pionie i poziomie */
+        }
+
+        /* Zadanie 72 - Pozycja tła */
+        #backgroundPosition {
+            background-image: url("path/to/your/positioned-background.jpg"); /* Ścieżka do obrazka */
+            background-repeat: no-repeat; /* Brak powtarzania obrazka */
+            background-position: 50% 25%; /* Pozycja obrazka */
+        }
+
+        /* Zadanie 72 - Zaczepienie tła */
+        #fixedBackground {
+            background-image: url("path/to/your/fixed-background.jpg"); /* Ścieżka do obrazka */
+            background-attachment: fixed; /* Tło nieruchome */
+        }
+
+        /* Zadanie 72 - Łączenie atrybutów tła */
+        #combinedBackground {
+            background: #66b2ff url("path/to/your/combined-background.jpg") no-repeat fixed center; /* Kombinacja atrybutów */
+        }
+
+        /* Zadanie 74 - Gradient liniowy */
+        #linearGradient {
+            background: linear-gradient(to right, #ff3333, #ffcc00); /* Przykład gradientu liniowego */
+        }
+
+        /* Zadanie 74 - Gradient promienisty */
+        #radialGradient {
+            background: radial-gradient(circle, #3399ff, #ffffff); /* Przykład gradientu promienistego */
+        }
+
+        /* Zadanie 74 - Powtarzany gradient promienisty */
+        #repeatingRadialGradient {
+            background: repeating-radial-gradient(circle, #ffcc00, #9900cc); /* Przykład powtarzanego gradientu promienistego */
+        }
+    </style>
+</head>
+<body>
+    <h1>Przykładowa strona z gradientami i tłami</h1>
+
+    <div id="backgroundImage">
+        <p>Tło obrazkowe</p>
+    </div>
+
+    <div id="repeatingBackground">
+        <p>Powtarzane tło</p>
+    </div>
+
+    <div id="backgroundPosition">
+        <p>Pozycja tła</p>
+    </div>
+
+    <div id="fixedBackground">
+        <p>Zaczepione tło</p>
+    </div>
+
+    <div id="combinedBackground">
+        <p>Łączenie atrybutów tła</p>
+    </div>
+
+    <div id="linearGradient">
+        <p>Gradient liniowy</p>
+    </div>
+
+    <div id="radialGradient">
+        <p>Gradient promienisty</p>
+    </div>
+
+    <div id="repeatingRadialGradient">
+        <p>Powtarzany gradient promienisty</p>
+    </div>
+</body>
+</html>
